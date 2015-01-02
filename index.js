@@ -44,7 +44,7 @@ function listURL(required, startURL) {
 
       function next() {
         var links = parseLink(req.response.headers.link)
-        if (links.next) return grab(links.next.url)
+        if (links && links.next) return grab(links.next.url)
         stream.push(null)
       }
     }
