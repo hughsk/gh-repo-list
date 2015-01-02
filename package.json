@@ -1,0 +1,43 @@
+{
+  "name": "gh-repo-list",
+  "version": "1.0.0",
+  "description": "Stream a list of all repositories for either a particular user/organisation or all of GitHub",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "node test"
+  },
+  "author": {
+    "name": "Hugh Kennedy",
+    "email": "hughskennedy@gmail.com",
+    "url": "http://hughsk.io/"
+  },
+  "dependencies": {
+    "JSONStream": "^0.10.0",
+    "hyperquest": "^1.0.1",
+    "parse-link-header": "^0.2.0",
+    "request": "^2.51.0",
+    "through2": "^0.6.3"
+  },
+  "devDependencies": {
+    "ghauth": "^1.0.0",
+    "tape": "^3.0.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hughsk/gh-repo-list.git"
+  },
+  "keywords": [
+    "github",
+    "gh",
+    "stream",
+    "api",
+    "list",
+    "all",
+    "data"
+  ],
+  "homepage": "https://github.com/hughsk/gh-repo-list",
+  "bugs": {
+    "url": "https://github.com/hughsk/gh-repo-list/issues"
+  }
+}
